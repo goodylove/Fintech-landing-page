@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../button";
 import { AiOutlineMenu } from "react-icons/ai";
 
 const NavBar = () => {
@@ -20,9 +21,7 @@ const NavBar = () => {
         <button className="hidden md:flex bg-white  text-center justify-center text-sm text-blue-500 w-[80px] border-2  border-solid rounded-lg p-2 font-bold">
           Login
         </button>
-        <button className="bg-blue-700 justify-center text-white w-[160px] p-1 rounded-lg text-[15px] font-bold hidden md:flex">
-          Sign up for free
-        </button>
+        <Button />
       </div>
 
       <div className="md:hidden">
