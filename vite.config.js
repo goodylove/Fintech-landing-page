@@ -8,7 +8,7 @@ export default defineConfig({
     alias: [
       {
         find: "common",
-        // replacement: resolve(__dirname, "src/common")
+        // replacement: resolve(__dirname, "src/common"),
       },
     ],
   },
