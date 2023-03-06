@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../button";
+import Floating from "./images/card.png";
 const FinTech = () => {
   return (
     <div>
@@ -23,7 +24,9 @@ const FinTech = () => {
           Get on Iphone
         </Button>
       </div>
-      <div></div>
+      <div>
+        <img src={Floating} alt="" />
+      </div>
     </div>
   );
 };
