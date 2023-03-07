@@ -9,8 +9,8 @@ const NavBar = () => {
         <h5 className="text-lg font-bold">Fintekk</h5>
       </div>
 
-      <div className="menulist w-[50%]">
-        <ul className="md:flex justify-around items-center text-sm text-gray-500 hidden font-bold">
+      <div className="menulist w-[45%]">
+        <ul className="md:flex justify-evenly  items-center text-sm text-gray-500 hidden font-bold">
           <li>Home</li>
           <li>About us</li>
           <li>FQAS</li>
