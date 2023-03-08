@@ -15,14 +15,14 @@ const FinTech = () => {
         <div className="flex flex-col md:flex-row items-center justify-center">
           <div className="flex flex-col  text-start  items-center">
             <div className="w-[97%]">
-              <p className=" md:text-5xl text-blue-900 text-2xl mb-4 ">
+              <p className=" md:text-5xl text-blue-900 text-2xl mb-4 leading-[3.4rem] md:leading-[4rem] ">
                 Pay,Invest,Save,
                 <br />
                 your Cash with a<br /> Single bank
               </p>
             </div>
 
-            <p>
+            <p className="leading-[2.4rem]">
               finteckk is the bank that does it all.manager everything directly
               and its easy with fiteckk
             </p>
