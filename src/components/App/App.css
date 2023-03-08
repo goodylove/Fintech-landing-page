@@ -4,8 +4,9 @@
   padding: 2rem; */
   text-align: center;
   width: 100%;
-  background: whitesmoke;
+  background: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
 }
 
 .logo {

@@ -60,7 +60,7 @@ const FinTech = () => {
         </div>
       </div>
       <div className="flex justify-center items-center m-8">
-        <div className="text-[#172E80] text-[20px] w-[30%] font-bold">
+        <div className="text-[#172E80] text-[20px] md:w-[30%] font-bold w-[64%]">
           More than <span className="text-[#2E5CFF]">10,000</span> active users
           trust Fintekk
         </div>
