@@ -6,6 +6,7 @@ import Steps from "./../steps/index";
 import Faq from "./../faq/index";
 
 import "./App.css";
+import Testimonials from "./../testimonals/indxe";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Service />
       <Steps />
       <Faq />
+      <Testimonials />
     </div>
   );
 }
