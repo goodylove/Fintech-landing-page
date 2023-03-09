@@ -16,7 +16,7 @@ const Question = () => {
   return (
     <div>
       <ul className="flex justify-center w-full flex-col">
-        <li className="text-start relative md:w-[70%]" id="">
+        <li className="text-start relative md:w-[70%]">
           <div className="border-[1px] rounded text-white text-sm flex justify-between  items-center  border-solid border-y-cyan-50  m-2 p-[18px]">
             <span> is fintekk security gurnateed</span>
             <div>
@@ -28,12 +28,7 @@ const Question = () => {
             </div>
           </div>
           {show ? (
-            <div
-              className="rounded absolute top-[42px] z-10 bg-white text-sm p-6 translate-y-3 transition 
-            
-                     
-                     "
-            >
+            <div className="rounded bg-white text-sm p-3 absolute top-10  z-0">
               Lorem ipsum dolor sit amet,, consequatur, ad sed necessitatibus
               corporis earum vero quo aliquam eveniet! Deserunt!
             </div>

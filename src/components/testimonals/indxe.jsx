@@ -30,9 +30,11 @@ const Testimonials = () => {
         </div>
         <div className="flex flex-col text-blue-800  items-center w-[20%]">
           <AiOutlineArrowUp className="mb-1" />
-          <span>1</span>
-          <span>2</span>
-          <span>3</span>
+          <div className="bg-blue-500 h-5 w-5 rounded-full text-[13px] text-white">
+            1
+          </div>
+          <div>2</div>
+          <div>3</div>
           <BsArrowDownShort className="mt-1" />
         </div>
       </div>
