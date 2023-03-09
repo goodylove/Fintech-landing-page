@@ -8,6 +8,17 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   cursor: pointer;
 }
+.close {
+  position: absolute;
+  height: 0;
+  padding: 0;
+  top: 0;
+}
+.open {
+  height: auto;
+  padding: 10px;
+  top: 10px;
+}
 
 .logo {
   height: 6em;

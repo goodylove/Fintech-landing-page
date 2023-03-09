@@ -11,7 +11,7 @@ import Img5 from "../../../public/5.png";
 const FinTech = () => {
   return (
     <>
-      <div className="md:w-[100%] md:flex justify-center items-center pl-10 pr-10">
+      <div className="md:w-[100%] md:flex justify-center items-center pl-10 pr-10 mt-20">
         <div className="flex flex-col md:flex-row items-center justify-center">
           <div className="flex flex-col  text-start  items-center">
             <div className="w-[97%]">

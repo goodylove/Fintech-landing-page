@@ -4,7 +4,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 const NavBar = () => {
   return (
-    <div className="flex items-center justify-between bg-white text-blue-600   w-full p-5  shadow-md text-3xl">
+    <div className="flex items-center justify-between mb-10 top-0 bg-white text-blue-600  fixed  w-full p-5  shadow-md text-3xl">
       <div className="log">
         <h5 className="text-lg font-bold">Fintekk</h5>
       </div>
