@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 
-const Question = () => {
-  const [show, setShow] = useState(false);
-  const [icon, setIcon] = useState(false);
+const Question = ({ text, onClick, icon, show }) => {
+  // const [show, setShow] = useState(false);
+  // const [icon, setIcon] = useState(false);
 
-  const handleClick = () => {
-    setIcon((prev) => {
-      return !prev;
-    });
-    setShow((prev) => {
-      return !prev;
-    });
-  };
+  // const handleClick = (e) => {
+  //   console.log(e);
+  //   setIcon((prev) => {
+  //     return !prev;
+  //   });
+  //   setShow((prev) => {
+  //     return !prev;
+  //   });
   return (
     <div>
       <ul className="flex justify-center w-full flex-col">
@@ -21,17 +21,14 @@ const Question = () => {
             <span> is fintekk security gurnateed</span>
             <div>
               {icon ? (
-                <AiOutlineDown onClick={() => handleClick()} />
+                <AiOutlineDown onClick={() => onClick()} />
               ) : (
-                <AiOutlineUp onClick={handleClick} />
+                <AiOutlineUp onClick={onClick} />
               )}
             </div>
           </div>
           {show ? (
-            <div className="rounded bg-white text-sm p-3 absolute top-10  z-0">
-              Lorem ipsum dolor sit amet,, consequatur, ad sed necessitatibus
-              corporis earum vero quo aliquam eveniet! Deserunt!
-            </div>
+            <div className={`rounded bg-white text-sm p-3`}>{text}</div>
           ) : (
             ""
           )}
@@ -40,5 +37,4 @@ const Question = () => {
     </div>
   );
 };
-
 export default Question;

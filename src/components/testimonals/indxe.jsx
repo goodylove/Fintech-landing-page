@@ -6,16 +6,16 @@ import { AiOutlineArrowUp } from "react-icons/ai";
 
 const Testimonials = () => {
   return (
-    <div className="flex justify-center mt-10 bg-gray-100 w-full p-10">
-      <div className="flex justify-between w-[90%] items-center">
-        <div className="text-start w-[40%]">
+    <div className="flex  mt-10 bg-gray-100 w-full p-10">
+      <div className="flex justify-between w-[90%] items-center  flex-col">
+        <div className="md:text-start md:w-[40%] text-center w-[86%]">
           <h2 className="">TESTIMONIALS</h2>
           <p className="text-3xl text-blue-800">
             What Our Customers Says About Us
           </p>
         </div>
         {/* testimonials */}
-        <div className="w-[40%] text-start bg-white  rounded p-2">
+        <div className="md:w-[40%]  w-[90%]text-start bg-white  rounded p-2 m-5">
           <p className="text-[13px]">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat
             qui voluptatum voluptatibus a error facere quia, minus laborum
@@ -28,7 +28,7 @@ const Testimonials = () => {
           <AiFillStar className="icon-start" />
           <AiOutlineStar className="ico-start" />
         </div>
-        <div className="flex flex-col text-blue-800  items-center w-[20%]">
+        <div className="flex md:flex-col text-blue-800  items-center md:w-[20%] flex-row w-[40%] m-5 justify-between  ">
           <AiOutlineArrowUp className="mb-1" />
           <div className="bg-blue-500 h-5 w-5 rounded-full text-[13px] text-white">
             1
