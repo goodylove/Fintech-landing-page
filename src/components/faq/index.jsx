@@ -5,19 +5,6 @@ import Illustrator from "../../.././public/illustration.png";
 import Question from "./Questions";
 
 const Faq = () => {
-  const [show, setShow] = useState(false);
-  const [icon, setIcon] = useState(false);
-
-  const handleClick = (e) => {
-    console.log(e);
-    setIcon((prev) => {
-      return !prev;
-    });
-    setShow((prev) => {
-      return !prev;
-    });
-  };
-
   return (
     <div className="w-full flex  h-auto  md:mt-10">
       <div className=" w-[100%] md:flex-row-reverse  flex  flex-col">
@@ -29,23 +16,14 @@ const Faq = () => {
             <div className="flex p-10 justify-center flex-col md:pl-[70px] ">
               <h1 className="text-5xl text-start mb-5 text-white">FAQs</h1>
               <Question
-                onClick={(e) => handleClick(e)}
-                icon={icon}
-                show={show}
                 text="Lorem ipsum dolor sit amet,, consequatur, ad sed necessitatibus
               corporis earum vero quo aliquam eveniet! Deserunt!"
               />
               <Question
-                onClick={(e) => handleClick(e)}
-                icon={icon}
-                show={show}
                 text="  ipsum dolor sit amet,, consequatur, ad sed necessitatibus
               corporis earum vero quo aliquam eveniet! Deserunt!"
               />
               <Question
-                onClick={(e) => handleClick(e)}
-                icon={icon}
-                show={show}
                 text=" Lorem ipsum dolor sit amet,, consequatur, ad sed necessitatibus
               corporis earum vero quo aliquam eveniet! Deserunt!"
               />

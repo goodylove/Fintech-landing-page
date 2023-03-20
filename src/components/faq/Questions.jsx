@@ -1,18 +1,20 @@
 import React, { useState } from "react";
 import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 
-const Question = ({ text, onClick, icon, show }) => {
-  // const [show, setShow] = useState(false);
-  // const [icon, setIcon] = useState(false);
+const Question = ({ text }) => {
+  const [show, setShow] = useState(false);
+  const [icon, setIcon] = useState(false);
 
-  // const handleClick = (e) => {
-  //   console.log(e);
-  //   setIcon((prev) => {
-  //     return !prev;
-  //   });
-  //   setShow((prev) => {
-  //     return !prev;
-  //   });
+  const handleClick = (e) => {
+    console.log(e);
+    setIcon((prev) => {
+      return !prev;
+    });
+    setShow((prev) => {
+      return !prev;
+    });
+  };
+
   return (
     <div>
       <ul className="flex justify-center w-full flex-col">
@@ -21,9 +23,9 @@ const Question = ({ text, onClick, icon, show }) => {
             <span> is fintekk security gurnateed</span>
             <div>
               {icon ? (
-                <AiOutlineDown onClick={() => onClick()} />
+                <AiOutlineDown onClick={handleClick} />
               ) : (
-                <AiOutlineUp onClick={onClick} />
+                <AiOutlineUp onClick={handleClick} />
               )}
             </div>
           </div>
