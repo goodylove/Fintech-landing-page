@@ -30,6 +30,27 @@
   margin: 0;
   display: inline;
 }
+.title::after {
+  content: "\2303";
+  font-size: 1.7rem;
+  position: absolute;
+
+  right: 4px;
+  top: 6px;
+}
+.title.active::after {
+  content: "\2304";
+  font-size: 1.7rem;
+  position: absolute;
+  top: -12px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 100%;
+  position: relative;
+}
 
 .logo {
   height: 6em;

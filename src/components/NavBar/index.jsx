@@ -13,7 +13,7 @@ const NavBar = () => {
         <ul className="md:flex justify-evenly  items-center text-sm text-gray-500 hidden font-bold">
           <li>Home</li>
           <li>About us</li>
-          <li>FQAS</li>
+          <li>FAQ</li>
           <li>Contact Us</li>
         </ul>
       </div>
