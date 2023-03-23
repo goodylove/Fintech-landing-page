@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 import Illustrator from "../../.././public/illustration.png";
+import ImgSvg from "../../.././public/questions/pana.svg";
 
 import Question from "./Question";
 
@@ -25,10 +26,6 @@ const questions = [
 const useAccordionList = () => {
   const [activeTitle, seActiveTitle] = useState(null);
 
-  // const handleActive = (title) => {
-  //   console.log(activeTitle);
-  //   seActiveTitle((prev) => (prev === title ? null : title));
-  // };
   const handleActive = (title) => {
     seActiveTitle((prev) => (prev == title ? null : title));
   };
@@ -43,10 +40,10 @@ const Faq = () => {
   const { activeTitle, handleActive } = useAccordionList();
 
   return (
-    <div className="w-full flex  h-auto  md:mt-10">
-      <div className=" w-[100%]  h-[545px] md:flex-row-reverse  flex  flex-col">
-        <div className="flex justify-center md:w-[658px] h-[100%]">
-          <img src={Illustrator} alt="" className="w-[100%] h-[100%]" />
+    <div className="w-full flex   md:mt-10     h-[100%]">
+      <div className=" w-[100%]  h-[50%] md:flex-row-reverse  flex  flex-col">
+        <div className="flex justify-center md:w-[658px] h-[100%] md:h-[50%]">
+          <img src={ImgSvg} alt="question" />
         </div>
         <div className=" bg-blue-700 flex justify-center md:w-[782px] h-[100%]">
           <div className="flex flex-col w-[100%] justify-center">

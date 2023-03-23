@@ -16,7 +16,9 @@ function App() {
       <Service />
       <Steps />
       <Faq />
-      <Testimonials />
+      <div>
+        <Testimonials />
+      </div>
     </div>
   );
 }
