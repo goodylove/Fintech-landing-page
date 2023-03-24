@@ -7,6 +7,7 @@ import Faq from "./../faq/index";
 
 import "./App.css";
 import Testimonials from "./../testimonals/indxe";
+import Email from "./../email/index";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <div>
         <Testimonials />
       </div>
+
+      <Email />
     </div>
   );
 }
