@@ -4,10 +4,10 @@ import FinTech from "./../fintechbanner.jsx/index";
 import Service from "./../service/index";
 import Steps from "./../steps/index";
 import Faq from "./../faq/index";
-
-import "./App.css";
 import Testimonials from "./../testimonals/indxe";
 import Email from "./../email/index";
+import Footer from "./../footer/index";
+import "./App.css";
 
 function App() {
   return (
@@ -22,6 +22,8 @@ function App() {
       </div>
 
       <Email />
+
+      <Footer />
     </div>
   );
 }

@@ -47,7 +47,7 @@ const Testimonials = () => {
 
   return (
     <div className="flex  mt-10 bg-gray-100 w-full p-10">
-      <div className="flex justify-between w-[90%] items-center  flex-col md:flex-row">
+      <div className="flex justify-between w-[100%] items-center  flex-col md:flex-row">
         <div className="md:text-start md:w-[40%] text-center w-[86%]">
           <h2 className="">TESTIMONIALS</h2>
           <p className="text-3xl text-blue-800">
@@ -65,7 +65,7 @@ const Testimonials = () => {
             )
         )}
 
-        <div className="flex md:flex-col text-blue-800  items-center md:w-[20%] flex-row w-[40%] m-5 justify-between  ">
+        <div className="flex md:flex-col text-blue-800  items-center md:w-[20%] flex-row w-[80%] m-5 justify-between  ">
           <AiOutlineArrowUp className="mb-1" onClick={upArrow} />
           <div
             className={
