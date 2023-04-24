@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
-import Illustrator from "../../.././public/illustration.png";
+// import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 import ImgSvg from "../../.././public/questions/pana.svg";
 
 import Question from "./Question";
 
 const questions = [
   {
-    title: "Is fintekk’s security guaranteed?",
+    title: "Is fintekks security guaranteed?",
     content:
       "lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui et dolorum sint ipsam, quos ut, tempora eaque, cum distinctio ex delectu",
   },
