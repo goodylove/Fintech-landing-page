@@ -30,7 +30,7 @@ const NavBar = () => {
         }`}
       >
         <ul className="md:flex justify-between text-start  items-center text-[13px] text-[#2E5CFF]  font-thin">
-          <li>Home</li>
+          <li className="hover:text-red-500">Home</li>
           <li>About us</li>
           <li>FAQ</li>
           <li>Contact Us</li>

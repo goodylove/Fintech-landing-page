@@ -33,8 +33,7 @@ const FinTech = () => {
               <div>
                 <Button className="text-gray-500 p-2 rounded-lg border-2 border-solid  mr-10 mb-5">
                   <span className="flex items-center  justify-around text-sm w-[130px]">
-                    <img src={Frame} alt="logo" pr-2 width="15px" /> Get on
-                    Android
+                    <img src={Frame} alt="logo" width="15px" /> Get on Android
                   </span>
                 </Button>
                 <Button className="text-gray-500 p-2 rounded-lg border-2 border-solid">
